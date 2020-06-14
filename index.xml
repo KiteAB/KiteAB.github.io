@@ -17,7 +17,7 @@
       <pubDate>Sun, 14 Jun 2020 16:07:10 +0800</pubDate>
       
       <guid>https://kiteab.github.io/posts/hello-world/</guid>
-      <description>这是我的第一篇博文 本博客使用 Hugo 引擎进行搭建 Test Part print(&amp;#34;Hello, World!&amp;#34;) </description>
+      <description>&lt;h3 id=&#34;这是我的第一篇博文&#34;&gt;这是我的第一篇博文&lt;/h3&gt;</description>
     </item>
     
   </channel>
