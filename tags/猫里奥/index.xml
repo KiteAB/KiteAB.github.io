@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KiteAB&#39;s Blog</title>
-    <link>https://kiteab.github.io/</link>
-    <description>Recent content on KiteAB&#39;s Blog</description>
+    <title>猫里奥 on KiteAB&#39;s Blog</title>
+    <link>https://kiteab.github.io/tags/%E7%8C%AB%E9%87%8C%E5%A5%A5/</link>
+    <description>Recent content in 猫里奥 on KiteAB&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2020 16:07:10 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2019 20:12:26 +0000</lastBuildDate>
     
-	<atom:link href="https://kiteab.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kiteab.github.io/tags/%E7%8C%AB%E9%87%8C%E5%A5%A5/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://kiteab.github.io/posts/hello-world/</link>
-      <pubDate>Sun, 14 Jun 2020 16:07:10 +0800</pubDate>
-      
-      <guid>https://kiteab.github.io/posts/hello-world/</guid>
-      <description>&lt;h3 id=&#34;这是我的第一篇博文&#34;&gt;这是我的第一篇博文&lt;/h3&gt;</description>
-    </item>
     
     <item>
       <title>Catmario TAS 教程</title>

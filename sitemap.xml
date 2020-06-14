@@ -24,13 +24,42 @@
   </url>
   
   <url>
-    <loc>https://kiteab.github.io/categories/</loc>
+    <loc>https://kiteab.github.io/tags/catmario/</loc>
+    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/posts/catmario-tas-%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://kiteab.github.io/tags/</loc>
+    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/tags/tas/</loc>
+    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/tags/%E7%8C%AB%E9%87%8C%E5%A5%A5/</loc>
+    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
