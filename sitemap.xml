@@ -3,6 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kiteab.github.io/tags/freenode/</loc>
+    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/tags/irc/</loc>
+    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</loc>
+    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/</loc>
+    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/tags/linux/</loc>
+    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/posts/</loc>
+    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://kiteab.github.io/tags/</loc>
+    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://kiteab.github.io/tags/arch/</loc>
     <lastmod>2020-07-10T17:36:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -11,34 +60,6 @@
   
   <url>
     <loc>https://kiteab.github.io/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.github.io/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.github.io/tags/linux/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.github.io/posts/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.github.io/tags/</loc>
     <lastmod>2020-07-10T17:36:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

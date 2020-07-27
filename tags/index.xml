@@ -6,10 +6,37 @@
     <description>Recent content in Tags on KiteAB&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2020 17:36:21 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 16:44:50 +0800</lastBuildDate>
     
 	<atom:link href="https://kiteab.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>freenode</title>
+      <link>https://kiteab.github.io/tags/freenode/</link>
+      <pubDate>Mon, 27 Jul 2020 16:44:50 +0800</pubDate>
+      
+      <guid>https://kiteab.github.io/tags/freenode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>irc</title>
+      <link>https://kiteab.github.io/tags/irc/</link>
+      <pubDate>Mon, 27 Jul 2020 16:44:50 +0800</pubDate>
+      
+      <guid>https://kiteab.github.io/tags/irc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://kiteab.github.io/tags/linux/</link>
+      <pubDate>Mon, 27 Jul 2020 16:44:50 +0800</pubDate>
+      
+      <guid>https://kiteab.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>arch</title>
@@ -17,15 +44,6 @@
       <pubDate>Fri, 10 Jul 2020 17:36:21 +0800</pubDate>
       
       <guid>https://kiteab.github.io/tags/arch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://kiteab.github.io/tags/linux/</link>
-      <pubDate>Fri, 10 Jul 2020 17:36:21 +0800</pubDate>
-      
-      <guid>https://kiteab.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

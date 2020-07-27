@@ -6,10 +6,19 @@
     <description>Recent content in Posts on KiteAB&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2020 17:36:21 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 16:44:50 +0800</lastBuildDate>
     
 	<atom:link href="https://kiteab.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IRC 使用教程 (Freenode &#43; Weechat)</title>
+      <link>https://kiteab.github.io/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</link>
+      <pubDate>Mon, 27 Jul 2020 16:44:50 +0800</pubDate>
+      
+      <guid>https://kiteab.github.io/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</guid>
+      <description>&lt;h4 id=&#34;这篇博文简单地讲述了-irc-聊天室的使用方法&#34;&gt;这篇博文简单地讲述了 IRC 聊天室的使用方法&lt;/h4&gt;</description>
+    </item>
     
     <item>
       <title>Arch Linux 常用软件</title>
