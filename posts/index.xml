@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on KiteAB&#39;s Blog</title>
-    <link>https://kiteab.github.io/posts/</link>
+    <link>https://kiteab.ga/posts/</link>
     <description>Recent content in Posts on KiteAB&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jul 2020 16:44:50 +0800</lastBuildDate>
     
-	<atom:link href="https://kiteab.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kiteab.ga/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IRC 使用教程 (Freenode &#43; Weechat)</title>
-      <link>https://kiteab.github.io/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</link>
+      <link>https://kiteab.ga/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</link>
       <pubDate>Mon, 27 Jul 2020 16:44:50 +0800</pubDate>
       
-      <guid>https://kiteab.github.io/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</guid>
+      <guid>https://kiteab.ga/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</guid>
       <description>&lt;h4 id=&#34;这篇博文简单地讲述了-irc-聊天室的使用方法&#34;&gt;这篇博文简单地讲述了 IRC 聊天室的使用方法&lt;/h4&gt;</description>
     </item>
     
     <item>
       <title>Arch Linux 常用软件</title>
-      <link>https://kiteab.github.io/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
+      <link>https://kiteab.ga/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
       <pubDate>Fri, 10 Jul 2020 17:36:21 +0800</pubDate>
       
-      <guid>https://kiteab.github.io/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</guid>
+      <guid>https://kiteab.ga/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</guid>
       <description>&lt;h4 id=&#34;最近有人推荐我做一个-arch-下的软件推荐所以come-on&#34;&gt;最近有人推荐我做一个 Arch 下的软件推荐，所以，Come on!&lt;/h4&gt;</description>
     </item>
     
     <item>
       <title>Colemak 学习笔记</title>
-      <link>https://kiteab.github.io/posts/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://kiteab.ga/posts/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Thu, 09 Jul 2020 22:27:09 +0800</pubDate>
       
-      <guid>https://kiteab.github.io/posts/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://kiteab.ga/posts/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;h4 id=&#34;最近也算是完全过渡到-colemak-了简单写写经历和感受&#34;&gt;最近也算是完全过渡到 Colemak 了，简单写写经历和感受&lt;/h4&gt;</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://kiteab.github.io/posts/hello-world/</link>
+      <link>https://kiteab.ga/posts/hello-world/</link>
       <pubDate>Sun, 14 Jun 2020 16:07:10 +0800</pubDate>
       
-      <guid>https://kiteab.github.io/posts/hello-world/</guid>
+      <guid>https://kiteab.ga/posts/hello-world/</guid>
       <description>&lt;h3 id=&#34;这是我的第一篇博文&#34;&gt;这是我的第一篇博文&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Catmario TAS 教程</title>
-      <link>https://kiteab.github.io/posts/catmario-tas-%E6%95%99%E7%A8%8B/</link>
+      <link>https://kiteab.ga/posts/catmario-tas-%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sun, 07 Apr 2019 20:12:26 +0000</pubDate>
       
-      <guid>https://kiteab.github.io/posts/catmario-tas-%E6%95%99%E7%A8%8B/</guid>
+      <guid>https://kiteab.ga/posts/catmario-tas-%E6%95%99%E7%A8%8B/</guid>
       <description>&lt;h4 id=&#34;今天为大家带来一些catmario-tas或者说叫nas的教程希望大家也能使用tas的方法打出让人惊讶的视频与记录&#34;&gt;今天为大家带来一些Catmario TAS（或者说叫NAS）的教程，希望大家也能使用TAS的方法打出让人惊讶的视频与记录！&lt;/h4&gt;</description>
     </item>
     
