@@ -1,151 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://kiteab.ga/tags/freenode/</loc>
-    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/irc/</loc>
-    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/post/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</loc>
-    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/</loc>
-    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/linux/</loc>
-    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/post/</loc>
-    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/</loc>
-    <lastmod>2020-07-27T16:44:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/arch/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/post/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2020-07-10T17:36:21+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/colemak/</loc>
-    <lastmod>2020-07-09T22:27:09+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/post/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-07-09T22:27:09+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2020-07-09T22:27:09+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/post/hello-world/</loc>
-    <lastmod>2020-06-14T16:07:10+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/catmario/</loc>
-    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/post/catmario-tas-%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/tas/</loc>
-    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/tags/%E7%8C%AB%E9%87%8C%E5%A5%A5/</loc>
-    <lastmod>2019-04-07T20:12:26+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://kiteab.ga/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-</urlset>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://kiteab.ga/tags/freenode/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://kiteab.ga/tags/irc/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://kiteab.ga/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://kiteab.ga/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://kiteab.ga/tags/linux/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://kiteab.ga/posts/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://kiteab.ga/tags/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://kiteab.ga/tags/arch/</loc><lastmod>2020-07-10T17:36:21&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc><lastmod>2020-07-10T17:36:21&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/</loc><lastmod>2020-07-10T17:36:21&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/%E6%8E%A8%E8%8D%90/</loc><lastmod>2020-07-10T17:36:21&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/%E8%BD%AF%E4%BB%B6/</loc><lastmod>2020-07-10T17:36:21&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/colemak/</loc><lastmod>2020-07-09T22:27:09&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/posts/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc><lastmod>2020-07-09T22:27:09&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/%E6%97%A5%E5%B8%B8/</loc><lastmod>2020-07-09T22:27:09&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/posts/hello-world/</loc><lastmod>2020-06-14T16:07:10&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/catmario/</loc><lastmod>2019-04-07T20:12:26&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/posts/catmario-tas-%E6%95%99%E7%A8%8B/</loc><lastmod>2019-04-07T20:12:26&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/tas/</loc><lastmod>2019-04-07T20:12:26&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/%E7%8C%AB%E9%87%8C%E5%A5%A5/</loc><lastmod>2019-04-07T20:12:26&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/categories/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url></urlset>

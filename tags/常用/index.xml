@@ -1,24 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>常用 on KiteAB&#39;s Blog</title>
-    <link>https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/</link>
-    <description>Recent content in 常用 on KiteAB&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2020 17:36:21 +0800</lastBuildDate>
-    
-	<atom:link href="https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Arch Linux 常用软件</title>
-      <link>https://kiteab.ga/post/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
-      <pubDate>Fri, 10 Jul 2020 17:36:21 +0800</pubDate>
-      
-      <guid>https://kiteab.ga/post/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</guid>
-      <description>&lt;h4 id=&#34;最近有人推荐我做一个-arch-下的软件推荐所以come-on&#34;&gt;最近有人推荐我做一个 Arch 下的软件推荐，所以，Come on!&lt;/h4&gt;</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>常用 - 标签 - KiteAB&#39;s Blog</title>
+        <link>https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/</link>
+        <description>常用 - 标签 - KiteAB&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>kiteabpl@outlook.com (KiteAB)</managingEditor>
+            <webMaster>kiteabpl@outlook.com (KiteAB)</webMaster><lastBuildDate>Fri, 10 Jul 2020 17:36:21 &#43;0800</lastBuildDate><atom:link href="https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/" rel="self" type="application/rss+xml" /><item>
+    <title>Arch Linux 常用软件</title>
+    <link>https://kiteab.ga/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
+    <pubDate>Fri, 10 Jul 2020 17:36:21 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://kiteab.ga/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</guid>
+    <description><![CDATA[<h4 id="最近有人推荐我做一个-arch-下的软件推荐所以come-on">最近有人推荐我做一个 Arch 下的软件推荐，所以，Come on!</h4>]]></description>
+</item></channel>
 </rss>

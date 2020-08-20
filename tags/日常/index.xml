@@ -1,24 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>日常 on KiteAB&#39;s Blog</title>
-    <link>https://kiteab.ga/tags/%E6%97%A5%E5%B8%B8/</link>
-    <description>Recent content in 日常 on KiteAB&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2020 22:27:09 +0800</lastBuildDate>
-    
-	<atom:link href="https://kiteab.ga/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Colemak 学习笔记</title>
-      <link>https://kiteab.ga/post/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Thu, 09 Jul 2020 22:27:09 +0800</pubDate>
-      
-      <guid>https://kiteab.ga/post/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-      <description>&lt;h4 id=&#34;最近也算是完全过渡到-colemak-了简单写写经历和感受&#34;&gt;最近也算是完全过渡到 Colemak 了，简单写写经历和感受&lt;/h4&gt;</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>日常 - 标签 - KiteAB&#39;s Blog</title>
+        <link>https://kiteab.ga/tags/%E6%97%A5%E5%B8%B8/</link>
+        <description>日常 - 标签 - KiteAB&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>kiteabpl@outlook.com (KiteAB)</managingEditor>
+            <webMaster>kiteabpl@outlook.com (KiteAB)</webMaster><lastBuildDate>Thu, 09 Jul 2020 22:27:09 &#43;0800</lastBuildDate><atom:link href="https://kiteab.ga/tags/%E6%97%A5%E5%B8%B8/" rel="self" type="application/rss+xml" /><item>
+    <title>Colemak 学习笔记</title>
+    <link>https://kiteab.ga/posts/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Thu, 09 Jul 2020 22:27:09 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://kiteab.ga/posts/colemak-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[<h4 id="最近也算是完全过渡到-colemak-了简单写写经历和感受">最近也算是完全过渡到 Colemak 了，简单写写经历和感受</h4>]]></description>
+</item></channel>
 </rss>
