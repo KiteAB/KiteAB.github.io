@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>记一次系统出错及备份过程 - KiteAB&#39;s Blog</title><meta name="Description" content="Bilibili: KiteAB"><meta property="og:title" content="记一次系统出错及备份过程" />
+<meta property="og:description" content="想必各位的电脑也经常会出现内存溢出现象吧, 但是如果溢出后强制重启的话是有几率导致文件系统损坏的, 此博文记录一次损坏及备份过程" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/" />
+<meta property="og:image" content="https://kiteab.ga/favicon.ico"/>
+<meta property="article:published_time" content="2020-08-21T17:41:24+08:00" />
+<meta property="article:modified_time" content="2020-08-21T17:41:24+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://kiteab.ga/favicon.ico"/>
+
+<meta name="twitter:title" content="记一次系统出错及备份过程"/>
+<meta name="twitter:description" content="想必各位的电脑也经常会出现内存溢出现象吧, 但是如果溢出后强制重启的话是有几率导致文件系统损坏的, 此博文记录一次损坏及备份过程"/>
+<meta name="application-name" content="KiteAB&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="KiteAB&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/" /><link rel="prev" href="https://kiteab.ga/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "记一次系统出错及备份过程",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/kiteab.ga\/posts\/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B\/"
+        },"genre": "posts","keywords": "备份, linux, arch, archlinux","wordcount":  487 ,
+        "url": "https:\/\/kiteab.ga\/posts\/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B\/","datePublished": "2020-08-21T17:41:24+08:00","dateModified": "2020-08-21T17:41:24+08:00","publisher": {
+            "@type": "Organization",
+            "name": "KiteAB"},"author": {
+                "@type": "Person",
+                "name": "KiteAB"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="KiteAB&#39;s Blog">KiteAB&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item active" href="/posts/"> 文章 </a><a class="menu-item" href="/friends/"> 友链 </a><a class="menu-item" href="/tags/"> 标签 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="KiteAB&#39;s Blog">KiteAB&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/friends/" title="">友链</a><a class="menu-item" href="/tags/" title="">标签</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">记一次系统出错及备份过程</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://kiteab.ga" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>KiteAB</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020年08月21日">2020年08月21日</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 487 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#出现错误">出现错误</a></li>
+    <li><a href="#解决错误">解决错误</a></li>
+    <li><a href="#备份系统">备份系统</a></li>
+    <li><a href="#最后">最后</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>想必各位的电脑也经常会出现内存溢出现象吧, 但是如果溢出后强制重启的话是有几率导致文件系统损坏的, 此博文记录一次损坏及备份过程</p>
+<!-- TOC GFM -->
+<ul>
+<li><a href="#%e5%87%ba%e7%8e%b0%e9%94%99%e8%af%af" rel="">出现错误</a></li>
+<li><a href="#%e8%a7%a3%e5%86%b3%e9%94%99%e8%af%af" rel="">解决错误</a></li>
+<li><a href="#%e5%a4%87%e4%bb%bd%e7%b3%bb%e7%bb%9f" rel="">备份系统</a></li>
+<li><a href="#%e6%9c%80%e5%90%8e" rel="">最后</a></li>
+</ul>
+<!-- /TOC -->
+<h2 id="出现错误">出现错误</h2>
+<p>一个愉快的下午, 我正在玩游戏, 然后我的 Linux 愉快地内存溢出了, 然后内核挺正常地 Crash 掉了, 然后当我重启之后, 我发现我的 Arch Linux 进入了 rootfs 恢复模式, 我当时的心情就好像以前有一次在实机上执行了 <code>sudo rm -rf /*</code> 一样, 一句 fuck 就要脱口而出</p>
+<h2 id="解决错误">解决错误</h2>
+<p>还是同一个不怎么愉快的下午, 我看到屏幕上显示的错误信息貌似是 <code>ERROR: Can't read /dev/sda2 filesystem, use fsck may can fix it. Good Luck!</code>, 意思差不多就是: 不能读取 /dev/sda2 (我的根目录) 的文件系统, 用 <code>fsck</code> 这个工具可能可以修复这个错误, 祝 你 好 运</p>
+<p>那么试试执行 <code>fsck</code> ?</p>
+<p>(PS: <code>fsck</code> 是一个检查与修复 Linux 文件系统的工具)</p>
+<p>然后出现信息让我输入 y/n 来确定是否修复一个块, 这样的信息连着显示了三四个 tty 的整屏……</p>
+<p>修复完成, 重启电脑, 修复完成!</p>
+<h2 id="备份系统">备份系统</h2>
+<p>经过这么一次事件, 心里还是凉的, 准备整个双内核, 但是麻烦, 于是准备开启定时备份的策略</p>
+<p>在网上搜到了<a href="https://www.jianshu.com/p/b03a51c682a5" target="_blank" rel="noopener noreffer">这么一篇文章</a>, 正好可以满足我的需求, Done!</p>
+<h2 id="最后">最后</h2>
+<p>大家真的一定要定时备份系统, 这样即使遇到故障, 也只需要插上备份盘然后恢复就好了, 指不定哪天你的硬盘就坏了呢?</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2020年08月21日</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/" data-title="记一次系统出错及备份过程" data-hashtags="备份,linux,arch,archlinux"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/" data-hashtag="备份"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Reddit" data-sharer="reddit" data-url="https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/" data-title="记一次系统出错及备份过程"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/" data-title="记一次系统出错及备份过程"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E5%A4%87%E4%BB%BD/">备份</a>,&nbsp;<a href="/tags/linux/">linux</a>,&nbsp;<a href="/tags/arch/">arch</a>,&nbsp;<a href="/tags/archlinux/">archlinux</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/" class="prev" rel="prev" title="IRC 使用教程 (Freenode &#43; Weechat)"><i class="fas fa-angle-left fa-fw"></i>IRC 使用教程 (Freenode &#43; Weechat)</a></div>
+</div>
+<div id="comments"><div id="gitalk" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://github.com/gitalk/gitalk"></a>Gitalk</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.74.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://kiteab.ga" target="_blank">KiteAB</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/gitalk/gitalk.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript" src="/lib/gitalk/gitalk.min.js"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"gitalk":{"admin":["KiteAB"],"clientID":"eb172f48679bb713fb74","clientSecret":"0863251f0ecba7738786bc1ff2018a46e5ab32bd","id":"2020-08-21T17:41:24+08:00","owner":"KiteAB","repo":"blog-comments","title":"记一次系统出错及备份过程"}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
