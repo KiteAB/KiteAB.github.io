@@ -4,33 +4,47 @@
         <link>https://kiteab.ga/tags/</link>
         <description>Tags - 标签 - KiteAB&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>kiteabpl@outlook.com (KiteAB)</managingEditor>
-            <webMaster>kiteabpl@outlook.com (KiteAB)</webMaster><lastBuildDate>Fri, 21 Aug 2020 17:41:24 &#43;0800</lastBuildDate><atom:link href="https://kiteab.ga/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>kiteabpl@outlook.com (KiteAB)</webMaster><lastBuildDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</lastBuildDate><atom:link href="https://kiteab.ga/tags/" rel="self" type="application/rss+xml" /><item>
     <title>arch</title>
     <link>https://kiteab.ga/tags/arch/</link>
-    <pubDate>Fri, 21 Aug 2020 17:41:24 &#43;0800</pubDate>
+    <pubDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://kiteab.ga/tags/arch/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>archlinux</title>
     <link>https://kiteab.ga/tags/archlinux/</link>
-    <pubDate>Fri, 21 Aug 2020 17:41:24 &#43;0800</pubDate>
+    <pubDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://kiteab.ga/tags/archlinux/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>linux</title>
     <link>https://kiteab.ga/tags/linux/</link>
-    <pubDate>Fri, 21 Aug 2020 17:41:24 &#43;0800</pubDate>
+    <pubDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://kiteab.ga/tags/linux/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>备份</title>
     <link>https://kiteab.ga/tags/%E5%A4%87%E4%BB%BD/</link>
-    <pubDate>Fri, 21 Aug 2020 17:41:24 &#43;0800</pubDate>
+    <pubDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://kiteab.ga/tags/%E5%A4%87%E4%BB%BD/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>转载</title>
+    <link>https://kiteab.ga/tags/%E8%BD%AC%E8%BD%BD/</link>
+    <pubDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://kiteab.ga/tags/%E8%BD%AC%E8%BD%BD/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>还原</title>
+    <link>https://kiteab.ga/tags/%E8%BF%98%E5%8E%9F/</link>
+    <pubDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://kiteab.ga/tags/%E8%BF%98%E5%8E%9F/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>freenode</title>
@@ -59,20 +73,6 @@
     <pubDate>Fri, 10 Jul 2020 17:36:21 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://kiteab.ga/tags/%E6%8E%A8%E8%8D%90/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>软件</title>
-    <link>https://kiteab.ga/tags/%E8%BD%AF%E4%BB%B6/</link>
-    <pubDate>Fri, 10 Jul 2020 17:36:21 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://kiteab.ga/tags/%E8%BD%AF%E4%BB%B6/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>colemak</title>
-    <link>https://kiteab.ga/tags/colemak/</link>
-    <pubDate>Thu, 09 Jul 2020 22:27:09 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://kiteab.ga/tags/colemak/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

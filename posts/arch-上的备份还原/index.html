@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Arch 上的备份还原 - KiteAB&#39;s Blog</title><meta name="Description" content="Bilibili: KiteAB"><meta property="og:title" content="Arch 上的备份还原" />
+<meta property="og:description" content="入坑Arch，主要方便自己查询和刚入坑经常玩挂的朋友，其他发行版应该大同小异。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/" />
+<meta property="og:image" content="https://kiteab.ga/favicon.ico"/>
+<meta property="article:published_time" content="2020-08-21T18:09:40+08:00" />
+<meta property="article:modified_time" content="2020-08-21T18:09:40+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://kiteab.ga/favicon.ico"/>
+
+<meta name="twitter:title" content="Arch 上的备份还原"/>
+<meta name="twitter:description" content="入坑Arch，主要方便自己查询和刚入坑经常玩挂的朋友，其他发行版应该大同小异。"/>
+<meta name="application-name" content="KiteAB&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="KiteAB&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/" /><link rel="prev" href="https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Arch 上的备份还原",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/kiteab.ga\/posts\/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F\/"
+        },"genre": "posts","keywords": "备份, 还原, arch, linux, archlinux, 转载","wordcount":  1889 ,
+        "url": "https:\/\/kiteab.ga\/posts\/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F\/","datePublished": "2020-08-21T18:09:40+08:00","dateModified": "2020-08-21T18:09:40+08:00","publisher": {
+            "@type": "Organization",
+            "name": "KiteAB"},"author": {
+                "@type": "Person",
+                "name": "KiteAB"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="KiteAB&#39;s Blog">KiteAB&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item active" href="/posts/"> 文章 </a><a class="menu-item" href="/friends/"> 友链 </a><a class="menu-item" href="/tags/"> 标签 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="KiteAB&#39;s Blog">KiteAB&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/friends/" title="">友链</a><a class="menu-item" href="/tags/" title="">标签</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Arch 上的备份还原</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://kiteab.ga" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>KiteAB</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020年08月21日">2020年08月21日</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1889 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 4 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><p>入坑Arch，主要方便自己查询和刚入坑经常玩挂的朋友，其他发行版应该大同小异。</p>
+<p>Linux上主要的备份方式 我知道的有 dd 和 tar</p>
+<p>相比来说 tar打包显得比较灵活，可以用于本机备份恢复，也可以恢复到其他计算机，打包的目录可以完全按自己需要。这里主要介绍tar打包以及本机的恢复。</p>
+<p>tar打包 可以只打包不压缩，速度会比较快，但是你可能会面对一个 好几十G的系统备份包，并不推荐。</p>
+<p>压缩 可以用gzip或者Bzip2 （好像还有其他的，不熟悉，就不做介绍了） 二者相比，gzip速度相对较快，但压缩比率比Bzip2略低。</p>
+<p>我这里并不用这两个软件打包，因为两个都是单线程，打包速度会非常慢。。。曾经用bzip2打包等到天荒地老都没好。。。</p>
+<p>那么重头戏来了！ 偶然的机会知道了一个叫pigz的多线程压缩软件，采用与gzip相同的压缩方式，默认以逻辑CPU的个数的线程进行压缩，具体线程还可以自定义，速度飞快，详细可以百度 pigz。</p>
+<p>那么 tar能不能调用pigz进行压缩呢？ 答案是肯定的！</p>
+<p>看一下tar的man手册</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">-I, --use-compress-program=COMMAND
+
+Filter data through COMMAND. It must accept the -d option,
+
+for decompression. The argument can contain command line
+
+Options.
+</code></pre></td></tr></table>
+</div>
+</div><p>发现tar是可以指定其他压缩程序进行压缩的。</p>
+<p>于是直接 <code>sudo pacman -S pigz</code> 安装（arch官方源就有）下面就可以开始打包了！</p>
+<p>进入根目录 然后执行：</p>
+<p><code>sudo tar --use-compress-program=pigz -cvpf arch-backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/arch-backup.tgz --exclude=/mnt --exclude=/sys --exclude=/run/media /</code></p>
+<p>简单介绍一下命令，&ndash;use-compress-program=pigz 是用pigz压缩，arch-backup.tgz是打包之后的文件名，&ndash;exclude=/xxx是打包时排除的目录，这里简单的排除了一些不需要的目录，具体排除的内容可以根据自己的发行版和需要设定，&ndash;exclude=/arch-backup.tgz 是排除根目录下的自身，因为我是在根目录下进行的操作，如果不排除自身的话，打包可能会进入一个死循环。。。你可能会打出一个巨型包。</p>
+<p>这样就开始进行压缩打包了</p>
+<p>用htop 可以看到 CPU满载，大概3-5分钟左右完成，比起单线程10%多的占用 速度快了不知道多少倍！</p>
+<p>完成候可以看到 28G左右的分区 打包完 是一个15G的压缩包，个头还是很大。。。也算可以接受。。不知道有没有其他办法能够再小点</p>
+<p>打包完成后，你可能会看到一条错误信息，具体原因小白不懂，不过并没有什么影响。然后将备份的包放到一个你觉得安全的地方。</p>
+<p>至此，所有备份工作都已经完成，系统挂了可以用下面的方法恢复</p>
+<hr>
+<p>首先需要准备一个能够引导的liveCD的U盘</p>
+<p>进入liveCD之后 先用wifi-menu联网，因为liveCD上没有pigz，如果不想解压恢复的时候用半年的话就联网装上再解压吧</p>
+<p>Ping一下百度看看是否联网成功，之后简单配置下源 就可以安装pigz了</p>
+<p>sudo nano /etc/pacman.d/mirrorlist 配置源</p>
+<p>安装pigz</p>
+<p>要用到的pigz准备好之后就可以挂载磁盘 进行恢复了。</p>
+<p>lsblk简单看下各个分区情况</p>
+<p>我这里sdc1是boot分区 sdc2是/分区 sdb3是保存备份的分区</p>
+<p>直接新建了一个目录挂载 sdb3</p>
+<p>mkdir /f</p>
+<p>mount /dev/sdb3 /f</p>
+<p>然后挂载 目标linux根分区到/mnt目录， 我的arch只分了 boot和/分区，并且备份的时候 忘记排除boot目录了，所以这里索性都挂载上干掉。挂载之后如图</p>
+<p>现在就可以干掉已经损坏的系统了</p>
+<p><code>rm -rf /mnt/*</code></p>
+<p>命令很危险，一定要看清楚，想清楚了之后再执行，我真是怕小手一抖就把不想干掉的分区干掉了</p>
+<p>这里zsh提示是否确定干掉/mnt上的所有文件 直接y
+boot目录因为是分区挂载点提示设备忙，这个目录并没有被删掉，不过ls一下可以看见/mnt下只剩boot目录，/mnt/boot下所有的引导文件也都没有了</p>
+<p>万事俱备，下面进行解压恢复 还是使用pigz进行多线程解压</p>
+<p>#tar &ndash;use-compress-program=pigz -xvpf /f/sysbackup/arch-backup-20160331.tgz -C /mnt</p>
+<p>这里自行把备份路径替换掉。接下来就是解压过程如图：</p>
+<p>用不了多久 也就2-3分钟 解压完成！(ssd)</p>
+<p>ls看看 干掉的文件是不是都回来了呢</p>
+<p>OK，問題ない！</p>
+<p>到这里，恢复工作已经接近尾声，还记得备份的时候排除掉的目录么，重建排除的目录</p>
+<p>然后直接reboot重启</p>
+<p>前面干掉了 / 分区所有文件真的 大丈夫？</p>
+<p>重启之后 可爱的grub菜单出现了！
+因为我之前把boot一起干掉了，所以看到这里就表面恢复成功了！</p>
+<p>所有备份恢复工作全部完成！</p>
+<p>总结起来，主要是利用了 pigz 的多线程提高 压缩解压的效率，比普通的gzip或者bzip2快很多！缺点还是比较明显，就是备份的包个头略大，不知道怎么能够再小点</p>
+<p>而且我只涉及了本机恢复，如果恢复到其他机子，还涉及到fstab修改之类的一些收尾工作。</p>
+<p>抛砖引玉，如果有其他好的方法 欢迎交流！</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">作者：baby_blue_
+链接：https://www.jianshu.com/p/b03a51c682a5
+来源：简书
+</code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2020年08月21日</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/" data-title="Arch 上的备份还原" data-hashtags="备份,还原,arch,linux,archlinux,转载"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/" data-hashtag="备份"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Reddit" data-sharer="reddit" data-url="https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/" data-title="Arch 上的备份还原"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/" data-title="Arch 上的备份还原"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E5%A4%87%E4%BB%BD/">备份</a>,&nbsp;<a href="/tags/%E8%BF%98%E5%8E%9F/">还原</a>,&nbsp;<a href="/tags/arch/">arch</a>,&nbsp;<a href="/tags/linux/">linux</a>,&nbsp;<a href="/tags/archlinux/">archlinux</a>,&nbsp;<a href="/tags/%E8%BD%AC%E8%BD%BD/">转载</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/" class="prev" rel="prev" title="记一次系统出错及备份过程"><i class="fas fa-angle-left fa-fw"></i>记一次系统出错及备份过程</a></div>
+</div>
+<div id="comments"><div id="gitalk" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://github.com/gitalk/gitalk"></a>Gitalk</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.74.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://kiteab.ga" target="_blank">KiteAB</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/gitalk/gitalk.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript" src="/lib/gitalk/gitalk.min.js"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"gitalk":{"admin":["KiteAB"],"clientID":"eb172f48679bb713fb74","clientSecret":"0863251f0ecba7738786bc1ff2018a46e5ab32bd","id":"2020-08-21T18:09:40+08:00","owner":"KiteAB","repo":"blog-comments","title":"Arch 上的备份还原"}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

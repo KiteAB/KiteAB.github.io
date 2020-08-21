@@ -4,7 +4,14 @@
         <link>https://kiteab.ga/tags/%E5%A4%87%E4%BB%BD/</link>
         <description>备份 - 标签 - KiteAB&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>kiteabpl@outlook.com (KiteAB)</managingEditor>
-            <webMaster>kiteabpl@outlook.com (KiteAB)</webMaster><lastBuildDate>Fri, 21 Aug 2020 17:41:24 &#43;0800</lastBuildDate><atom:link href="https://kiteab.ga/tags/%E5%A4%87%E4%BB%BD/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>kiteabpl@outlook.com (KiteAB)</webMaster><lastBuildDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</lastBuildDate><atom:link href="https://kiteab.ga/tags/%E5%A4%87%E4%BB%BD/" rel="self" type="application/rss+xml" /><item>
+    <title>Arch 上的备份还原</title>
+    <link>https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/</link>
+    <pubDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/</guid>
+    <description><![CDATA[<p>入坑Arch，主要方便自己查询和刚入坑经常玩挂的朋友，其他发行版应该大同小异。</p>]]></description>
+</item><item>
     <title>记一次系统出错及备份过程</title>
     <link>https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/</link>
     <pubDate>Fri, 21 Aug 2020 17:41:24 &#43;0800</pubDate>
