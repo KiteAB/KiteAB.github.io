@@ -2,20 +2,20 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://kiteab.ga/tags/arch/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/archlinux/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/linux/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/posts/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/%E5%A4%87%E4%BB%BD/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/%E8%BD%AC%E8%BD%BD/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/%E8%BF%98%E5%8E%9F/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/</loc><lastmod>2020-08-21T17:41:24&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/freenode/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://kiteab.ga/tags/irc/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://kiteab.ga/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://kiteab.ga/tags/arch/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/tags/archlinux/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/tags/linux/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/posts/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/tags/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/tags/%E5%A4%87%E4%BB%BD/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/tags/%E8%BD%AC%E8%BD%BD/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/tags/%E8%BF%98%E5%8E%9F/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%87%BA%E9%94%99%E5%8F%8A%E5%A4%87%E4%BB%BD%E8%BF%87%E7%A8%8B/</loc><lastmod>2020-08-21T17:41:24&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://kiteab.ga/tags/freenode/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/irc/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/posts/irc-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-freenode-&#43;-weechat/</loc><lastmod>2020-07-27T16:44:50&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://kiteab.ga/posts/arch-linux-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc><lastmod>2020-07-10T17:36:21&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/</loc><lastmod>2020-07-10T17:36:21&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://kiteab.ga/tags/%E6%8E%A8%E8%8D%90/</loc><lastmod>2020-07-10T17:36:21&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
