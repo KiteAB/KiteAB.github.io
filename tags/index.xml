@@ -4,7 +4,28 @@
         <link>https://kiteab.ga/tags/</link>
         <description>Tags - 标签 - KiteAB&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>kiteabpl@outlook.com (KiteAB)</managingEditor>
-            <webMaster>kiteabpl@outlook.com (KiteAB)</webMaster><lastBuildDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</lastBuildDate><atom:link href="https://kiteab.ga/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>kiteabpl@outlook.com (KiteAB)</webMaster><lastBuildDate>Sun, 13 Dec 2020 20:52:42 &#43;0800</lastBuildDate><atom:link href="https://kiteab.ga/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>elisp</title>
+    <link>https://kiteab.ga/tags/elisp/</link>
+    <pubDate>Sun, 13 Dec 2020 20:52:42 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://kiteab.ga/tags/elisp/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>emacs</title>
+    <link>https://kiteab.ga/tags/emacs/</link>
+    <pubDate>Sun, 13 Dec 2020 20:52:42 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://kiteab.ga/tags/emacs/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>magit</title>
+    <link>https://kiteab.ga/tags/magit/</link>
+    <pubDate>Sun, 13 Dec 2020 20:52:42 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://kiteab.ga/tags/magit/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>arch</title>
     <link>https://kiteab.ga/tags/arch/</link>
     <pubDate>Fri, 21 Aug 2020 18:09:40 &#43;0800</pubDate>
@@ -52,27 +73,6 @@
     <pubDate>Mon, 27 Jul 2020 16:44:50 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://kiteab.ga/tags/freenode/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>irc</title>
-    <link>https://kiteab.ga/tags/irc/</link>
-    <pubDate>Mon, 27 Jul 2020 16:44:50 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://kiteab.ga/tags/irc/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>常用</title>
-    <link>https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/</link>
-    <pubDate>Fri, 10 Jul 2020 17:36:21 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://kiteab.ga/tags/%E5%B8%B8%E7%94%A8/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>推荐</title>
-    <link>https://kiteab.ga/tags/%E6%8E%A8%E8%8D%90/</link>
-    <pubDate>Fri, 10 Jul 2020 17:36:21 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://kiteab.ga/tags/%E6%8E%A8%E8%8D%90/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
