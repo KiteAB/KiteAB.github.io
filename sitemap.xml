@@ -2,13 +2,13 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://kiteab.ga/tags/elisp/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/emacs/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/magit/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/posts/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/tags/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://kiteab.ga/posts/xah-fly-keys-&#43;-magit-perfect/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
+            <loc>https://kiteab.ga/tags/elisp/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/emacs/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/magit/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/posts/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/tags/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://kiteab.ga/posts/xah-fly-keys-&#43;-magit-perfect/</loc><lastmod>2020-12-13T20:52:42&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://kiteab.ga/tags/arch/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://kiteab.ga/posts/arch-%E4%B8%8A%E7%9A%84%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://kiteab.ga/tags/archlinux/</loc><lastmod>2020-08-21T18:09:40&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
